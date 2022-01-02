@@ -9,14 +9,14 @@ Oh, right.
 I like using [CockroachDB](https://www.cockroachlabs.com/) clusters in AWS for quick startup applications. I think it scales well since it uses a postgres DBM in our application code and creates a managed DB cluster for us automatically which is very nice of them.
 
 ```
-1. create CockroachDB instance, making sure to copy the user, pw, host, port, and dbname they provide you
+1. create CockroachDB instance, following the windows/linux/mac steps for a "Connection string" connection
 2. create `.env.local` at root directory of project
-3. create `PGUSER`, `PGPASSWORD`, `PGHOST`, `PGPORT`, `PGDATABASE` variables in the `.env.local` file
+3. create a `PGCONN` variable in the `.env.local` file for the connection string they provide in the second step
 ```
 
 You can use any postgres db solution you want with this code, but I'd recommend this one.
 
-### Okay.. Cool. Where's the ignition?
+### Cool. Where's the ignition?
 I use Yarn for package management and orchestration. You can get it [here](https://yarnpkg.com/getting-started/install). I won't judge you if you use npm.
 
 ```
