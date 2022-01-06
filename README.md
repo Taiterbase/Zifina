@@ -2,7 +2,7 @@
 Hello! This is another (yes, *another*) web app template for you to get your grimy paws on. I'm no slick UI/UX designer, but the code here is probably cool.
 
 ### What?
-Zifi-web-template is a super-simple layout driven app powered by [Next.js](https://nextjs.org/docs/getting-started) and [tailwindcss](https://tailwindcss.com/docs/guides/nextjs). Using this application layout method you can build data-driven SSR SaaS apps that are organized using the latest web dev technologies and methodologies. Or, you know, whatever you want.
+Zifi-web-template is a layout driven app powered by [Next.js](https://nextjs.org/docs/getting-started) and [tailwindcss](https://tailwindcss.com/docs/guides/nextjs). Using this application layout method you can build data-driven SSR SaaS apps that are organized using the latest web dev technologies and methodologies. Or, you know, whatever you want.
 
 ### Wait, what database are you using here?
 Oh, right. 
