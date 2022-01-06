@@ -1,8 +1,8 @@
 import fs from "fs";
 import { Pool } from "pg";
 import  os from "os";
-const homeDir = os.homedir;
 
+const homeDir = os.homedir;
 const connectionString = process.env.PGCONN;
 const config = {
     connectionString,
