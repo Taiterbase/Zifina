@@ -19,10 +19,10 @@ export default function HomeHeader(props: any) {
             </div>
             <div key="header" className="z-30 fixed overflow-x-hidden h-full w-20 flex-col justify-around list-content backdrop-filter backdrop-blur-3xl">
                 <div className="h-full">
-                    <button onClick={() => { router.push("/") }} className="w-20 h-16 hover:bg-green-600 hover:bg-opacity-30">
+                    <button title="Home" onClick={() => { router.push("/") }} className="w-20 h-16 hover:bg-green-600 hover:bg-opacity-30">
                         <HomeIcon/>
                     </button>
-                    <button onClick={() => { router.push("/") }} className="w-20 h-16 hover:bg-green-600 hover:bg-opacity-30">
+                    <button title="Placeholder" onClick={() => { router.push("/") }} className="w-20 h-16 hover:bg-green-600 hover:bg-opacity-30">
                         <SmileIcon/>
                     </button>
                 </div>

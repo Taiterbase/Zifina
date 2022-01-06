@@ -7,7 +7,7 @@ export default () => {
                 viewBox="450 0 275 720"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="fill-current text-green-700 pointer-events-none top-0 left-0 fixed"
+                className="fill-current text-blue-400 pointer-events-none top-0 left-0 fixed"
                 data-role="gradient"
             >
                 <g filter="url(#filter1_f)">
@@ -37,7 +37,7 @@ export default () => {
                 viewBox="200 500 425 397"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="z-0 fill-current text-yellow-500 opacity-70 top-0 right-0 pointer-events-none fixed"
+                className="z-0 fill-current text-purple-400 opacity-70 top-0 right-0 pointer-events-none fixed"
                 data-role="gradient"
             >
                 <g filter="url(#filter1_f)">
@@ -52,7 +52,7 @@ export default () => {
                 viewBox="100 0 425 1"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
-                className="z-0 fill-current text-yellow-600 opacity-90 top-0 right-0 pointer-events-none fixed"
+                className="z-0 fill-current text-purple-300 opacity-90 top-0 right-0 pointer-events-none fixed"
                 data-role="gradient"
             >
                 <g filter="url(#filter1_f)">
