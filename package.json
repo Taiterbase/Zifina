@@ -8,12 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "axios": "latest",
     "next": "latest",
-    "pg": "^8.7.1",
     "react": "latest",
     "react-dom": "latest",
-    "sharp": "latest",
     "swr": "latest"
   },
   "devDependencies": {

@@ -1,10 +1,11 @@
 import { SWRConfig } from "swr";
-import BackgroundSplash from "./components/background-splash";
-import HomeHeader from "./components/home-header";
+import BackgroundSplash from "components/background-splash";
+import HomeHeader from "components/home-header";
 import { getLayout as getRootLayout } from "layouts/root";
 
 export function HomeLayout(props) {
     const { children } = props;
+    
     return (
         <SWRConfig
             value={{
