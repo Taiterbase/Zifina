@@ -18,9 +18,7 @@ First, you should open up the [Next.js docs](https://nextjs.org/docs/basic-featu
 
 Another important and special and awesome page to have opened is the [class list](https://tailwind.build/classes) for the Tailwindcss style classes.
 
-Moving along! I'd open up the [node-postgres docs](https://node-postgres.com/features/connecting) for how to write queries if you get lost in the sauce.
-
-After that, you'll want to have your cockroachlabs cluster open in another tab just to monitor your queries and stuff.
+Moving along! For a database solution, I like using Cockroach Labs' [CockroachDB](https://www.cockroachlabs.com/) with the [node-postgres driver](https://node-postgres.com/features/connecting). 
 
 ### Blast-off!
 For launching and hosting, [Vercel](https://vercel.com/docs) is great for quick deployments. 
