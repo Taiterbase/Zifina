@@ -1,6 +1,7 @@
 import Head from "next/head";
+import { ReactNode } from "react";
 
-export function RootLayout(props) {
+export function RootLayout(props: { children: ReactNode; }) {
     const { children } = props;
     return (
         <>
@@ -9,11 +10,11 @@ export function RootLayout(props) {
                 <meta name="og:title" content="Website Title" key="title" />
                 <meta name="description" content="Next.js Web Template free to use for monkies only!" key="description" />
             </Head>
-            { children }
+            {children}
         </>
     )
 }
 
-export function getLayout(page) {
+export function getLayout(page: ReactNode) {
     return <RootLayout>{page}</RootLayout>
 }
